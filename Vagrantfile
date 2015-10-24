@@ -68,5 +68,6 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get -y install build-essential
     sudo apt-get -y install git bison cvs flex texinfo unzip zip
+    sudo apt-get -y install zlib1g zlib1g-dev
   SHELL
 end
